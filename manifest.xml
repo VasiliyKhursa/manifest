@@ -1,0 +1,19 @@
+<?xml varsion="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openembedded"
+  	      fetch="git://git.openembedded.org" />
+
+  <remote name="yoctoproject"
+          fetch="git://git.yoctoproject.org" />
+
+  <project path="setup/yocto"
+           name="poky.git" 
+  	       remote="yoctoproject"
+  	       revision="master" />
+
+  <project path="setup/yocto/meta-openembedded"
+  	       name="meta-openembedded"
+  	       remote="openembedded"
+  	       revision="master" />
+
+</manifest>
