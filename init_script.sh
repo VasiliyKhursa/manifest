@@ -2,8 +2,6 @@
 
 source poky/oe-init-build-env
 
-pwd
-
 bitbake-layers add-layer ../meta-raspberrypi
 bitbake-layers add-layer ../meta-openembedded/meta-oe
 bitbake-layers add-layer ../meta-openembedded/meta-python
