@@ -9,6 +9,9 @@
   <remote name="raspberry"
           fetch="git://git.yoctoproject.org" />
 
+  <remote name="khursa"
+          fetch="git://github.com/VasiliyKhursa" />
+
   <project path="poky"
            name="poky.git" 
            remote="yoctoproject"
@@ -23,4 +26,9 @@
            name="meta-raspberrypi"
            remote="raspberry"
            revision="master" />
+
+  <project path="scripts"
+           name="manifest"
+           remote="khursa"
+           revision="fccb9ed861845bc6097e56d5c6727f2ce896ecca" />
 </manifest>
