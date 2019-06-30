@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="openembedded"
-  	      fetch="git://git.openembedded.org" />
+          fetch="git://git.openembedded.org" />
 
   <remote name="yoctoproject"
           fetch="git://git.yoctoproject.org" />
 
-  <project path="setup/yocto"
-           name="poky.git" 
-  	       remote="yoctoproject"
-  	       revision="master" />
+  <remote name="raspberry"
+          fetch="git://git.yoctoproject.org" />
 
-  <project path="setup/yocto/meta-openembedded"
-  	       name="meta-openembedded"
-  	       remote="openembedded"
-  	       revision="master" />
+  <remote name="khursa"
+          fetch="git://github.com/VasiliyKhursa" />
+
+  <project path="poky"
+           name="poky.git" 
+           remote="yoctoproject"
+           revision="master" />
+
+  <project path="meta-openembedded"
+           name="meta-openembedded"
+           remote="openembedded"
+           revision="master" />
+
+  <project path="meta-raspberrypi"
+           name="meta-raspberrypi"
+           remote="raspberry"
+           revision="master" />
+
+  <project path="scripts"
+           name="yocto_scripts"
+           remote="khursa"
+           revision="master" />
+
+  <project path="meta-example"
+           name="meta-example"
+           remote="khursa"
+           revision="master" />
 
 </manifest>
