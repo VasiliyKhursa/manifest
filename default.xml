@@ -15,17 +15,17 @@
   <project path="poky"
            name="poky.git" 
            remote="yoctoproject"
-           revision="master" />
+           revision="70b6880c550c0a9c5ee36ac3c4d7884a17683843" />
 
   <project path="meta-openembedded"
            name="meta-openembedded"
            remote="openembedded"
-           revision="master" />
+           revision="3b245e4fe85be62c309650e84d1aaacbcb0d5505" />
 
   <project path="meta-raspberrypi"
            name="meta-raspberrypi"
            remote="raspberry"
-           revision="master" />
+           revision="40283f583b57d67798135ed4a94cb8b5288ea965" />
 
   <project path="scripts"
            name="yocto_scripts"
