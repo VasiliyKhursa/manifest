@@ -28,7 +28,13 @@
            revision="master" />
 
   <project path="scripts"
-           name="manifest"
+           name="yocto_scripts"
            remote="khursa"
-           revision="fccb9ed861845bc6097e56d5c6727f2ce896ecca" />
+           revision="master" />
+
+  <project path="meta-example"
+           name="meta-example"
+           remote="khursa"
+           revision="master" />
+
 </manifest>
